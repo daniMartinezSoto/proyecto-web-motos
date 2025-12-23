@@ -1,0 +1,94 @@
+@import '01-external-reset';
+@import '02-tools';
+@import '03-tokens';
+@import '04-atoms';
+@import '05-molecules';
+
+
+
+.navbar {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(var(--input-and-btn-height) + var(--spacing-16));
+  padding: 0 var(--spacing-16);
+  background-color: var(--color-low-grey);
+  z-index: var(--zindex-header);
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-12); // espacio entre los elementos de la derecha
+  }
+}
+
+
+
+.title-h1 {
+  font: var(--font-h1);
+}
+
+
+.title-h2 {
+  font: var(--font-h2);
+}
+
+.logo-navbar {
+  width: pxToRem(70px);
+  height: pxToRem(70px);
+}
+
+.footer {
+  width: 100%;
+  padding: var(--spacing-40) 32px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-32);
+  background-color: var(--color-low-grey);
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-24);
+  }
+
+  &__title {
+    font: var(--font-h1);
+    text-align: center;
+  }
+
+  .footer__subscribe {
+    display: flex;
+    gap: var(--spacing-12);
+    width: 100%;
+    max-width: 480px;
+
+    .input {
+      flex: 1;
+    }
+  }
+
+  &__divider {
+    border: var(--border-width-1) solid var(--color-grey);
+    opacity: 0.5;
+
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-24);
+    flex-wrap: wrap;
+  }
+}
+
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-24);
+  padding: var(--spacing-24);
+  grid-template-columns: repeat(4, 1fr);
+}

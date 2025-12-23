@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+  max-width: 400px;  
+}
+
+.card-image {
+  border-radius: var(--border-radius-4);
+}
+
+.card-chips {
+  display: flex;
+  gap: var(--spacing-8);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__configure {
+  width: 100%;           // ocupa todo el ancho de la card
+  justify-content: center; // centra el texto del botón
+}
