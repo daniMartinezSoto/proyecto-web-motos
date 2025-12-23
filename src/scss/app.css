@@ -327,11 +327,14 @@ main {
   margin-bottom: var(--spacing-40);
 }
 
+.title-h3 {
+  font: var(--font-h3);
+}
+
 .motos-chips {
   display: flex;
   gap: var(--spacing-8);
   margin-bottom: var(--spacing-32);
-  /* mismo espacio que el h1 */
 }
 
 .footer {
