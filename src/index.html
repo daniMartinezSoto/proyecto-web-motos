@@ -4,34 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Catalogo de motos</title>
   <link rel="stylesheet" href="scss/app.css">
-
 </head>
 
 <body>
 
-  <nav class="navbar">
-    <div class="navbar__left">
-      <span class="icon icon--moto-logo navbar__icon"></span>
+  <header class="header">
+    <div class="header__left">
+      <button class="icon icon--moto-logo header__icon" aria-label="Logo"></button>
     </div>
 
-    <div class="navbar__right">
+    <div class="header__right">
       <button class="button button--filled">Ver todas las motos</button>
 
-      <div class="navbar__user">
+      <button class="header__user">
         <span class="icon icon--user"></span>
-        <button class="button">Usuario</button>
-      </div>
+        Usuario
+      </button>
 
-      <span class="icon icon--burguer-menu"></span>
+      <button class="icon icon--burguer-menu" aria-label="Menú"></button>
     </div>
-  </nav>
+  </header>
 
   <main>
 
-    <div class="all-motos">
-      <h1 class="title-h1 ">Todas las motos</h1>
+    <section class="all-motos">
+      <h1 class="title-h1">Todas las motos</h1>
 
       <div class="motos-chips">
         <span class="chip chip-filled">Eléctrica</span>
@@ -40,219 +39,202 @@
         <span class="chip">Diesel</span>
       </div>
 
-    </div>
+      <h2 class="title-h2">8 resultados de motos eléctricas automáticas</h2>
+
+      <div class="cards">
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price price--discount">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
+
+        <article class="card">
+          <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
+
+          <h3 class="title-h3">Moto</h3>
+
+          <div class="card-chips">
+            <span class="chip chip--card">Eléctrica</span>
+            <span class="chip chip--card">Automática</span>
+          </div>
+
+          <div class="card-footer">
+            <span class="price">Desde €12.345</span>
+            <a href="#" class="link">Ver más</a>
+          </div>
+
+          <button class="button button--filled card__configure">
+            Configurar esta moto
+          </button>
+        </article>
 
 
-    <h2 class="title-h2">8 resultados de motos eléctricas automáticas</h2>
+      </div>
 
+    </section>
 
-    <div class="cards-grid">
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-      
-      <article class="card">
-        <img class="card-image" src="assets/images/moto-1280.jpg" alt="Nombre de la moto">
-
-        <h3 class="title-h3">Moto</h3>
-
-        <div class="card-chips">
-          <span class="chip chip--card">Eléctrica</span>
-          <span class="chip chip--card">Automática</span>
-
-        </div>
-
-        <div class="card-footer">
-          <span class="price">Desde €12.345</span>
-          <a href="#" class="link">Ver más</a>
-        </div>
-
-        <button class="button button--filled card__configure">
-          Configurar esta moto
-        </button>
-      </article>
-
-
-
-
-    </div>
 
   </main>
 
   <footer class="footer">
-    <!-- Sección superior con h1 e input + botón -->
     <div class="footer__top">
-      <h1 class="title-h2">¿Quieres estar informado sobre las novedades?</h1>
+      <h2 class="title-h2">¿Quieres estar informado sobre las novedades?</h2>
 
-      <div class="input-label">
+      <form class="input-label">
         <label for="footer-email">Email</label>
         <div class="footer__subscribe">
-          <input class="input" type="email" placeholder="Tu email">
-          <button class="button button--filled">Enviar</button>
+          <input class="input" type="email" id="footer-email" placeholder="Tu email" required>
+          <button type="submit" class="button button--filled">Enviar</button>
         </div>
-      </div>
+      </form>
     </div>
-
-
-
 
     <hr class="footer__divider">
 
-    <!-- Sección links -->
-    <div class="footer__links">
+    <nav class="footer__links">
       <a class="link" href="#">Contacto</a>
       <a class="link" href="#">Política de privacidad</a>
-      <a class="link" href="#">Cookies</a>
+      <a class="link" href="#">Política de ookies</a>
+      <a class="link" href="#">Nota legal</a>
+      <a class="link" href="#">Mapa de sitio</a>
       <a class="link" href="#">Accesibilidad</a>
-    </div>
+    </nav>
   </footer>
-
-
-
 
 </body>
 

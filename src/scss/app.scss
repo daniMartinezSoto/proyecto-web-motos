@@ -9,8 +9,9 @@ main {
   padding: var(--spacing-64) var(--spacing-32);
 }
 
-//navbar
-.navbar {
+// header
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,17 +22,17 @@ main {
   top: 0;
 }
 
-
-.navbar__right {
+.header__right {
   display: flex;
   align-items: center;
   gap: var(--spacing-12);
 }
 
-.navbar__icon {
+.header__icon {
   width: pxToRem(70px);
   height: pxToRem(70px);
 }
+
 
 //titulos
 
@@ -58,11 +59,11 @@ main {
 
 
 
-//FOOTER
+//footer
 
 .footer {
   width: 100%;
-  padding: var(--spacing-40) 32px;
+  padding: var(--spacing-40) var(--spacing-32);
   display: flex;
   flex-direction: column;
   gap: var(--spacing-32);
@@ -85,7 +86,7 @@ main {
   display: flex;
   gap: var(--spacing-12);
   width: 100%;
-  max-width: 480px;
+  max-width: pxToRem(480px);
 }
 
 .footer__subscribe .input {
@@ -95,21 +96,21 @@ main {
 .footer__divider {
   border: var(--border-width-1) solid var(--color-grey);
   opacity: 0.5;
+  margin-left: calc(-1 * var(--spacing-32));
+  margin-right: calc(-1 * var(--spacing-32));
 }
 
 .footer__links {
   display: flex;
   justify-content: center;
   gap: var(--spacing-24);
-  flex-wrap: wrap;
 }
 
 
-//CARD GRID
+//card grid
 
-.cards-grid {
+.cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(pxToRem(300px), 1fr));
   gap: var(--spacing-24);
-  grid-template-columns: repeat(4, 1fr);
 }
