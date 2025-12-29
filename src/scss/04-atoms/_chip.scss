@@ -23,3 +23,15 @@
   color: var(--color-black);
   border: none;
 }
+
+
+.card-chips {
+  display: flex;
+  gap: var(--spacing-8);
+}
+
+.motos-chips {
+  display: flex;
+  gap: var(--spacing-8);
+  margin-bottom: var(--spacing-32);
+}
